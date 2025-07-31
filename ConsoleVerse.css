@@ -1,0 +1,149 @@
+body {
+    background-color: #1C1F22;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+.navbar {
+    margin-top: 0; /* Remove default margin */
+}
+
+.consolelinks {
+    font-size: 20px;
+}
+
+.cart-button:hover {
+    color: black !important;
+}
+
+div#content {
+    width: 400px;
+    position: absolute;
+    top: 64px;
+    left: 200px;
+}
+
+div#leftSidebar {
+    width:200px;
+    position:absolute;
+    top:64px;
+    left:0px;
+}
+
+div#rightSidebar {
+    width: 200px;
+    position: absolute;
+    top: 64px;
+    left: 620px;
+}
+
+h1 {
+    text-align:center;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size:small;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff; /* Set table background color to white */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Add a bottom border to cells */
+}
+
+th {
+    background-color: #333; /* Set header background color to a dark shade */
+    color: #fff; /* Set header text color to white */
+}
+
+tr {
+    background-color: rgb(70, 70, 70);; /* Set even row background color to a light shade */
+}
+
+tr:nth-child(even) {
+    background-color: grey; /* Set even row background color to a light shade */
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: white; /* Darker background color */
+    color: #2C3033;
+}
+
+.card-body {
+    padding: 40px;
+}
+
+.form-label {
+    color: #212529;
+}
+
+.form-control {
+    border: 1px solid #212529;
+    border-radius: 8px;
+    color: #2C3033; /* Text color adjusted for visibility */
+    background-color: whitesmoke; /* Darker background color */
+}
+
+.form-control::placeholder {
+    color: #2C3033;
+}
+
+.btn-primary {
+    background-color: #212529;
+    border: 1px solid #212529;
+}
+
+.btn-primary:hover {
+    background-color: #212529;
+    border: 1px solid #212529;
+}
+
+.invalid-feedback {
+    color: #dc3545;
+}
+
+.valid-feedback {
+    color: #28a745;
+}
+
+.g-recaptcha {
+    margin-bottom: 20px;
+}
+
+.form-check-input {
+    border: 1px solid #212529;
+    border-radius: 4px;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.readonly-input {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    outline: none;
+    width: fit-content;
+}

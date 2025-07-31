@@ -1,0 +1,94 @@
+.button-playstation {
+    display: inline-block;
+    padding: 10px 20px; 
+    background: linear-gradient(to bottom, #003087, #001e5e); 
+    color: #fff; 
+    text-decoration: none;
+    border: none;
+    border-radius: 25px; 
+    transition: all 0.3s ease;
+    font-family: 'Arial', sans-serif; 
+    font-size: 14px; 
+    font-weight: bold; 
+    box-shadow: 0px 4px 8px #888; 
+  }
+
+  .button-playstation:hover {
+    background: linear-gradient(to bottom, #0070d1, #0058a6); 
+    box-shadow: 0px 6px 12px #888; 
+  }
+
+  .button-playstation:hover {
+    background: linear-gradient(to bottom, #0070d1, #0058a6); 
+    box-shadow: 0px 6px 12px #888; 
+  }
+
+  .button-playstation.unavailable {
+    opacity: 0.5; 
+    pointer-events: none; 
+  }
+
+  .button-xbox {
+    display: inline-block;
+    padding: 10px 20px; 
+    background: linear-gradient(to bottom, #006400, #003300); 
+    color: #fff; 
+    text-decoration: none;
+    border: none;
+    border-radius: 25px; 
+    transition: all 0.3s ease;
+    font-family: 'Arial', sans-serif; 
+    font-size: 14px; 
+    font-weight: bold; 
+    box-shadow: 0px 4px 8px #888; 
+  }
+
+  .button-xbox:hover {
+    background: linear-gradient(to bottom, #228b22, #006400);
+    box-shadow: 0px 6px 12px #888; 
+  }
+
+  .button-xbox.unavailable {
+    opacity: 0.5; 
+    pointer-events: none; 
+  }
+
+  .button-nintendo {
+    display: inline-block;
+    padding: 10px 20px; 
+    background: linear-gradient(to bottom, #8b0000, #4b0000);
+    color: #fff; 
+    text-decoration: none;
+    border: none;
+    border-radius: 25px; 
+    transition: all 0.3s ease;
+    font-family: 'Arial', sans-serif; 
+    font-size: 14px; 
+    font-weight: bold; 
+    box-shadow: 0px 4px 8px #888; 
+  }
+
+  .button-nintendo:hover {
+    background: linear-gradient(to bottom, #ff0000, #8b0000);
+    box-shadow: 0px 6px 12px #888; 
+  }
+
+  .button-sega {
+    display: inline-block;
+    padding: 10px 20px; 
+    background: linear-gradient(to bottom, #003087, #001e5e); 
+    color: #fff; 
+    text-decoration: none;
+    border: none;
+    border-radius: 25px; 
+    transition: all 0.3s ease;
+    font-family: 'Arial', sans-serif; 
+    font-size: 14px; 
+    font-weight: bold; 
+    box-shadow: 0px 4px 8px #888; 
+  }
+
+  .button-sega:hover {
+    background: linear-gradient(to bottom, #0070d1, #0058a6); 
+    box-shadow: 0px 6px 12px #888; 
+  }
